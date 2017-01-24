@@ -1,0 +1,24 @@
+{
+  "name": "promise-request",
+  "version": "1.0.0",
+  "description": "this give you a native promise request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nbwsc/promise-request.git"
+  },
+  "keywords": [
+    "promise",
+    "request",
+    "async"
+  ],
+  "author": "nbwsc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nbwsc/promise-request/issues"
+  },
+  "homepage": "https://github.com/nbwsc/promise-request#readme"
+}
