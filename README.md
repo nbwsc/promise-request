@@ -1,4 +1,4 @@
-# promise-request
+# promise_request
 
 
 
@@ -11,7 +11,7 @@ FEATURE
 INSTALL
 ===========
 ```bash
-npm install easy_mongo
+npm install promise_request
 ```
 TEST
 ===========
@@ -31,7 +31,7 @@ HOW TO
 ===========
 ```javascript
 //eg.
-var request = require('promise-request');
+var request = require('promise_request');
 
 var options = {
     method: 'GET',
