@@ -3,7 +3,7 @@
     require babel-core 
 */
 
-const pr = require('../index');
+const request = require('../index');
 (async () => {
 
     async function task() {
@@ -16,7 +16,7 @@ const pr = require('../index');
                 'User-Agent': 'request'
             }
         };
-        let resp = await pr(options)
+        let resp = await request(options)
         return JSON.parse(resp.body);
     }
 

@@ -2,7 +2,7 @@
 promise test
 */
 
-var pr = require('../index');
+var request = require('../index');
 
 
 var options = {
@@ -15,7 +15,7 @@ var options = {
     }
 };
 
-pr(options).then((response) => {
+request(options).then((response) => {
     console.log(JSON.parse(response.body)['full_name']);
 }, (err) => {
     console.error(err)
