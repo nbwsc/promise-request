@@ -1,6 +1,12 @@
-nguage: node_js
+sudo: false
+language: node_js
 node_js:
+  - "0.10"
+  - "0.12"
+  - "4"
+  - "5"
   - "6"
-  - "6.1"
-  - "5.11"
-  - "0.6"
+after_script:
+  - npm test
+git:
+  depth: 10
