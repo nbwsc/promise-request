@@ -4,7 +4,7 @@
   "description": "this give you a native promise request",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js",
+    "test": "npm install request && node test/test.js",
     "testAsync":"node test/testAsync.start.js"
   },
   "repository": {

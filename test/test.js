@@ -15,7 +15,7 @@ var options = {
     }
 };
 
-request(options).then((response) => {
+request(options).then(function(response){
     console.log(JSON.parse(response.body)['full_name']);
 }, (err) => {
     console.error(err)
