@@ -1,6 +1,6 @@
 # promise_request
 
-
+[![Build Status](https://travis-ci.org/nbwsc/promise-request.svg?branch=master)](https://travis-ci.org/nbwsc/promise-request)
 
 FEATURE
 ===========
